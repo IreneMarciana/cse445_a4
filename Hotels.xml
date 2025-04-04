@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="hotels.xsd">
+
+    <!-- Example hotel from Figure 1 -->
+    <Hotel ID="H001" Rating="4.2">
+        <Name>Example Hotel</Name>
+        <Phone Number="480-968-8885">Main line</Phone>
+        <Phone Number="800-937-8401">Reservations</Phone>
+        <Address>
+            <Street>11 E.7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+        <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+    </Hotel>
+
+    <!-- 10 additional real hotels -->
+    <Hotel ID="H002" Rating="4.5">
+        <Name>The Ritz-Carlton, New York</Name>
+        <Phone Number="212-308-9100">Main</Phone>
+        <Phone Number="800-542-8680">Reservations</Phone>
+        <Address>
+            <Street>50 Central Park S</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+        </Address>
+        <NearestAirport>John F. Kennedy International Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H003" Rating="4.7">
+        <Name>Fairmont San Francisco</Name>
+        <Phone Number="415-772-5000">Main</Phone>
+        <Address>
+            <Street>950 Mason St</Street>
+            <City>San Francisco</City>
+            <State>CA</State>
+            <Zip>94108</Zip>
+        </Address>
+        <NearestAirport>San Francisco International Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H004">
+        <Name>The Palmer House Hilton</Name>
+        <Phone Number="312-726-7500">Main</Phone>
+        <Phone Number="800-445-8667">Reservations</Phone>
+        <Address>
+            <Street>17 E Monroe St</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60603</Zip>
+        </Address>
+        <NearestAirport>O'Hare International Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H005" Rating="4.3">
+        <Name>The Breakers Palm Beach</Name>
+        <Phone Number="561-655-6611">Main</Phone>
+        <Address>
+            <Street>1 S County Rd</Street>
+            <City>Palm Beach</City>
+            <State>FL</State>
+            <Zip>33480</Zip>
+        </Address>
+        <NearestAirport>Palm Beach International Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H006" Rating="4.1">
+        <Name>The Peabody Memphis</Name>
+        <Phone Number="901-529-4000">Main</Phone>
+        <Phone Number="800-732-2639">Reservations</Phone>
+        <Address>
+            <Street>149 Union Ave</Street>
+            <City>Memphis</City>
+            <State>TN</State>
+            <Zip>38103</Zip>
+        </Address>
+        <NearestAirport>Memphis International Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H007">
+        <Name>The Broadmoor</Name>
+        <Phone Number="855-634-7711">Main</Phone>
+        <Address>
+            <Street>1 Lake Ave</Street>
+            <City>Colorado Springs</City>
+            <State>CO</State>
+            <Zip>80906</Zip>
+        </Address>
+        <NearestAirport>Colorado Springs Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H008" Rating="4.6">
+        <Name>Hotel Del Coronado</Name>
+        <Phone Number="619-435-6611">Main</Phone>
+        <Phone Number="800-582-2595">Reservations</Phone>
+        <Address>
+            <Street>1500 Orange Ave</Street>
+            <City>Coronado</City>
+            <State>CA</State>
+            <Zip>92118</Zip>
+        </Address>
+        <NearestAirport>San Diego International Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H009" Rating="4.4">
+        <Name>The Greenbrier</Name>
+        <Phone Number="855-453-4858">Main</Phone>
+        <Address>
+            <Street>101 W Main St</Street>
+            <City>White Sulphur Springs</City>
+            <State>WV</State>
+            <Zip>24986</Zip>
+        </Address>
+        <NearestAirport>Greenbrier Valley Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H010" Rating="4.8">
+        <Name>Four Seasons Resort Maui</Name>
+        <Phone Number="808-874-8000">Main</Phone>
+        <Phone Number="800-819-5053">Reservations</Phone>
+        <Address>
+            <Street>3900 Wailea Alanui Dr</Street>
+            <City>Wailea</City>
+            <State>HI</State>
+            <Zip>96753</Zip>
+        </Address>
+        <NearestAirport>Kahului Airport</NearestAirport>
+    </Hotel>
+
+    <Hotel ID="H011">
+        <Name>The Jefferson, Washington DC</Name>
+        <Phone Number="202-448-2300">Main</Phone>
+        <Address>
+            <Street>1200 16th St NW</Street>
+            <City>Washington</City>
+            <State>DC</State>
+            <Zip>20036</Zip>
+        </Address>
+        <NearestAirport>Ronald Reagan Washington National Airport</NearestAirport>
+    </Hotel>
+
+</Hotels>
