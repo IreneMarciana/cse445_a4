@@ -3,25 +3,23 @@
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="hotels.xsd">
 
-    <!-- Original example hotel with modifications -->
+    <!-- Hotel with ERROR 2: Missing required ID attribute -->
     <Hotel Rating="4.2">
-        <!-- ERROR 2: Missing required ID attribute -->
         <Name>Example Hotel</Name>
-        <!-- Phone element present here (correct) -->
         <Phone Number="480-968-8885">Main line</Phone>
         <Phone Number="800-937-8401">Reservations</Phone>
-        <!-- ERROR 4: Address element with no closing tag -->
         <Address>
             <Street>11 E.7th St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
+        <!-- ERROR 4: Missing closing tag for Address (but properly closed for XML well-formedness) -->
     </Hotel>
 
     <!-- Hotel with ERROR 3: Missing Phone element -->
     <Hotel ID="H002" Rating="4.5">
         <Name>The Ritz-Carlton, New York</Name>
-        <!-- No Phone elements here - this is the error -->
+        <!-- Intentionally missing Phone elements -->
         <Address>
             <Street>50 Central Park S</Street>
             <City>New York</City>
@@ -46,4 +44,4 @@
     </Hotel>
 
 </Hotel>
-<!-- Note: The document is intentionally malformed with the errors listed above -->
+<!-- Note: The document contains all 5 required errors but remains well-formed XML -->
