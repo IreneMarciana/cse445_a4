@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="hotels.xsd">
+<Hotels xmlns="https://irenemarciana.github.io/cse445_a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="https://irenemarciana.github.io/cse445_a4 https://irenemarciana.github.io/cse445_a4/Hotels.xsd">
 
     <!-- Example hotel from Figure 1 -->
     <Hotel ID="H001" Rating="4.2">
