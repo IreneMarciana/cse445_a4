@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-            xmlns="https://irenemarciana.github.io/cse445_a4" 
+            xmlns:hot="https://irenemarciana.github.io/cse445_a4"
             targetNamespace="https://irenemarciana.github.io/cse445_a4" 
             elementFormDefault="qualified">
 
@@ -11,10 +11,7 @@
         <xsd:element name="Hotel" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
-              <!-- Name element -->
               <xsd:element name="Name" type="xsd:string"/>
-              
-              <!-- Multiple Phone elements allowed -->
               <xsd:element name="Phone" maxOccurs="unbounded">
                 <xsd:complexType>
                   <xsd:simpleContent>
@@ -24,8 +21,6 @@
                   </xsd:simpleContent>
                 </xsd:complexType>
               </xsd:element>
-              
-              <!-- Address information -->
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
@@ -36,20 +31,13 @@
                   </xsd:sequence>
                 </xsd:complexType>
               </xsd:element>
-              
-              <!-- Nearest Airport -->
               <xsd:element name="NearestAirport" type="xsd:string"/>
             </xsd:sequence>
-            
-            <!-- Optional Rating attribute -->
             <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
-            
-            <!-- Required attribute (assuming ID is required based on diagram) -->
             <xsd:attribute name="ID" type="xsd:ID" use="required"/>
           </xsd:complexType>
         </xsd:element>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
-
 </xsd:schema>
