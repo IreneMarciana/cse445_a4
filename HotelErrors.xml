@@ -8,12 +8,11 @@
         <Name>Example Hotel</Name>
         <Phone Number="480-968-8885">Main line</Phone>
         <Phone Number="800-937-8401">Reservations</Phone>
+        <!-- ERROR 4: Address element with missing child elements -->
         <Address>
-            <Street>11 E.7th St</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
+            <!-- Missing Street, City, State elements -->
             <Zip>85281</Zip>
-        <!-- ERROR 4: Missing closing tag for Address (but properly closed for XML well-formedness) -->
+        </Address>
     </Hotel>
 
     <!-- Hotel with ERROR 3: Missing Phone element -->
@@ -44,4 +43,3 @@
     </Hotel>
 
 </Hotel>
-<!-- Note: The document contains all 5 required errors but remains well-formed XML -->
