@@ -13,7 +13,7 @@
             <State>AZ</State>
             <Zip>85281</Zip>
         </Address>
-        <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+        <NearstAirport>Phoenix Sky Harbor International Airport</NearstAirport>
     </Hotel>
 
     <!-- 10 additional real hotels -->
@@ -27,7 +27,7 @@
             <State>NY</State>
             <Zip>10019</Zip>
         </Address>
-        <NearestAirport>John F. Kennedy International Airport</NearestAirport>
+        <NearstAirport>John F. Kennedy International Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H003" Rating="4.7">
@@ -39,7 +39,7 @@
             <State>CA</State>
             <Zip>94108</Zip>
         </Address>
-        <NearestAirport>San Francisco International Airport</NearestAirport>
+        <NearstAirport>San Francisco International Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H004">
@@ -52,7 +52,7 @@
             <State>IL</State>
             <Zip>60603</Zip>
         </Address>
-        <NearestAirport>O'Hare International Airport</NearestAirport>
+        <NearstAirport>O'Hare International Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H005" Rating="4.3">
@@ -64,7 +64,7 @@
             <State>FL</State>
             <Zip>33480</Zip>
         </Address>
-        <NearestAirport>Palm Beach International Airport</NearestAirport>
+        <NearstAirport>Palm Beach International Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H006" Rating="4.1">
@@ -77,7 +77,7 @@
             <State>TN</State>
             <Zip>38103</Zip>
         </Address>
-        <NearestAirport>Memphis International Airport</NearestAirport>
+        <NearstAirport>Memphis International Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H007">
@@ -89,7 +89,7 @@
             <State>CO</State>
             <Zip>80906</Zip>
         </Address>
-        <NearestAirport>Colorado Springs Airport</NearestAirport>
+        <NearstAirport>Colorado Springs Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H008" Rating="4.6">
@@ -102,7 +102,7 @@
             <State>CA</State>
             <Zip>92118</Zip>
         </Address>
-        <NearestAirport>San Diego International Airport</NearestAirport>
+        <NearstAirport>San Diego International Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H009" Rating="4.4">
@@ -114,7 +114,7 @@
             <State>WV</State>
             <Zip>24986</Zip>
         </Address>
-        <NearestAirport>Greenbrier Valley Airport</NearestAirport>
+        <NearstAirport>Greenbrier Valley Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H010" Rating="4.8">
@@ -127,7 +127,7 @@
             <State>HI</State>
             <Zip>96753</Zip>
         </Address>
-        <NearestAirport>Kahului Airport</NearestAirport>
+        <NearstAirport>Kahului Airport</NearstAirport>
     </Hotel>
 
     <Hotel ID="H011">
@@ -139,7 +139,7 @@
             <State>DC</State>
             <Zip>20036</Zip>
         </Address>
-        <NearestAirport>Ronald Reagan Washington National Airport</NearestAirport>
+        <NearstAirport>Ronald Reagan Washington National Airport</NearstAirport>
     </Hotel>
 
 </Hotels>
