@@ -31,7 +31,7 @@
                   </xsd:sequence>
                 </xsd:complexType>
               </xsd:element>
-              <xsd:element name="NearestAirport" type="xsd:string"/>
+              <xsd:element name="NearstAirport" type="xsd:string"/>
             </xsd:sequence>
             <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
             <xsd:attribute name="ID" type="xsd:ID" use="required"/>
