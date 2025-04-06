@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://irenemarciana.github.io/cse445_a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:schemaLocation="https://irenemarciana.github.io/cse445_a4 https://irenemarciana.github.io/cse445_a4/Hotels.xsd">
+<!-- follows structure of xsd file filled w/ name, phone, address, street, city, state, zip, + nearst airport elements -->
 
-    <!-- Example hotel from Figure 1 -->
+    <!-- sky harbor example hotel! -->
     <Hotel ID="H001" Rating="4.2">
         <Name>Example Hotel</Name>
         <Phone Number="480-968-8885">Main line</Phone>
@@ -16,7 +17,7 @@
         <NearstAirport>Phoenix Sky Harbor International Airport</NearstAirport>
     </Hotel>
 
-    <!-- 10 additional real hotels -->
+    <!-- hotel 2 -->
     <Hotel ID="H002" Rating="4.5">
         <Name>The Ritz-Carlton, New York</Name>
         <Phone Number="212-308-9100">Main</Phone>
@@ -30,6 +31,7 @@
         <NearstAirport>John F. Kennedy International Airport</NearstAirport>
     </Hotel>
 
+<!-- hotel 3 -->
     <Hotel ID="H003" Rating="4.7">
         <Name>Fairmont San Francisco</Name>
         <Phone Number="415-772-5000">Main</Phone>
@@ -41,7 +43,7 @@
         </Address>
         <NearstAirport>San Francisco International Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 4 -->
     <Hotel ID="H004">
         <Name>The Palmer House Hilton</Name>
         <Phone Number="312-726-7500">Main</Phone>
@@ -54,7 +56,7 @@
         </Address>
         <NearstAirport>O'Hare International Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 5 -->
     <Hotel ID="H005" Rating="4.3">
         <Name>The Breakers Palm Beach</Name>
         <Phone Number="561-655-6611">Main</Phone>
@@ -66,7 +68,7 @@
         </Address>
         <NearstAirport>Palm Beach International Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 6 -->
     <Hotel ID="H006" Rating="4.1">
         <Name>The Peabody Memphis</Name>
         <Phone Number="901-529-4000">Main</Phone>
@@ -79,7 +81,7 @@
         </Address>
         <NearstAirport>Memphis International Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 7 -->
     <Hotel ID="H007">
         <Name>The Broadmoor</Name>
         <Phone Number="855-634-7711">Main</Phone>
@@ -91,7 +93,7 @@
         </Address>
         <NearstAirport>Colorado Springs Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 8 -->
     <Hotel ID="H008" Rating="4.6">
         <Name>Hotel Del Coronado</Name>
         <Phone Number="619-435-6611">Main</Phone>
@@ -104,7 +106,7 @@
         </Address>
         <NearstAirport>San Diego International Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 9 -->
     <Hotel ID="H009" Rating="4.4">
         <Name>The Greenbrier</Name>
         <Phone Number="855-453-4858">Main</Phone>
@@ -116,7 +118,7 @@
         </Address>
         <NearstAirport>Greenbrier Valley Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 10 -->
     <Hotel ID="H010" Rating="4.8">
         <Name>Four Seasons Resort Maui</Name>
         <Phone Number="808-874-8000">Main</Phone>
@@ -129,7 +131,7 @@
         </Address>
         <NearstAirport>Kahului Airport</NearstAirport>
     </Hotel>
-
+<!-- hotel 11 -->
     <Hotel ID="H011">
         <Name>The Jefferson, Washington DC</Name>
         <Phone Number="202-448-2300">Main</Phone>
