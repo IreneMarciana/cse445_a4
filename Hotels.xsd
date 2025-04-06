@@ -4,7 +4,8 @@
             targetNamespace="https://irenemarciana.github.io/cse445_a4" 
             elementFormDefault="qualified">
 
-  <!-- Root element: Hotels -->
+  <!-- xsd file for Hotels following structure of provided diagram -->
+            <!-- all elements included in order as they appear on the corresponding xml file -->
   <xsd:element name="Hotels">
     <xsd:complexType>
       <xsd:sequence>
